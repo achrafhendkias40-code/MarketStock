@@ -20,7 +20,7 @@ for company in stock_prices:
     # add data to file
     file.add_row([company, stock_price, shares, final_price])
     file.create_csv()
-print('file successfully created')
+print('file successfully created\n')
 
 # sum up investments
 total_investment = round(sum(investments), 2)
