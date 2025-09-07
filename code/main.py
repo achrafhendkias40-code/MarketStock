@@ -14,7 +14,7 @@ for company in stock_prices:
     stock_price = stock_prices[company]['price']
     shares = stock_prices[company]['shares']
     portfolio = Portfolio(company, stock_price, shares)
-    final_price = portfolio.stock_invest()
+    final_price = str(portfolio.stock_invest()) + '$'
     investments.append(final_price)
 
     # add data to file
