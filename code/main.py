@@ -5,7 +5,7 @@ from toolbox import Portfolio, File
 # create file
 # save into a csv file
 path = 'C:/Users/achra/output.csv'
-data = ['company', 'stock price', 'shares', 'investment']
+data = ['company', 'stock price', 'shares', 'investment($)']
 file = File(path, data)
 
 # calculate investment at which company
